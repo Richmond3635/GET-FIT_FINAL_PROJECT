@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receipt"
+    android:background="@drawable/bb">
+
+    <TextView
+        android:id="@+id/bannerko2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="156dp"
+        android:text="Set Me!!!"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bannerko3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="Set Me!!!"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/bannerko2"
+        app:layout_constraintStart_toStartOf="@+id/bannerko2"
+        app:layout_constraintTop_toBottomOf="@+id/bannerko2" />
+
+    <TextView
+        android:id="@+id/bannerko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Set Me!!!"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/bannerko3"
+        app:layout_constraintStart_toStartOf="@+id/bannerko3"
+        app:layout_constraintTop_toBottomOf="@+id/bannerko3" />
+
+    <Button
+        android:id="@+id/homenow"
+        android:layout_width="195dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="33dp"
+        android:text="go to home"
+        app:layout_constraintEnd_toEndOf="@+id/bannerko"
+        app:layout_constraintStart_toStartOf="@+id/bannerko"
+        app:layout_constraintTop_toBottomOf="@+id/bannerko" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
